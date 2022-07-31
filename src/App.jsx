@@ -1,7 +1,6 @@
 import React from "react";
 
 import {Header} from "./Components"
-import "./App.css";
 
 function App() {
   return (
