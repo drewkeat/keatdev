@@ -2,10 +2,10 @@ import {
   BrowserRouter,
   Routes,
   Route,
-} from "react-router-dom";
+} from "react-router-dom"
 
 import App from "../App"
-import {ContactMe, Blog, Projects} from "../Components"
+import {ContactMe, Blog, Projects} from "../Containers"
 
 export default function RoutesConfig(){
   return(
