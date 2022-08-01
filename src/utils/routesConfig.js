@@ -11,10 +11,9 @@ export default function RoutesConfig(){
   return(
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />}>
-        <Route index element={<Header />} />
-        <Route path="other" element={<Other />}>
-        </Route>
+      <Route path="/" element={<App />} />
+      <Route path="/header" element={<Header />} />
+      <Route path="/other" element={<Other />}>
       </Route>
     </Routes>
   </BrowserRouter>
