@@ -5,15 +5,16 @@ import {
 } from "react-router-dom";
 
 import App from "../App"
-import {Header, Other} from "../Components"
+import {ContactMe, Blog, Projects} from "../Components"
 
 export default function RoutesConfig(){
   return(
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/header" element={<Header />} />
-      <Route path="/other" element={<Other />}>
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/contact-me" element={<ContactMe />}/>
+      <Route path="/projects" element={<Projects />}>
       </Route>
     </Routes>
   </BrowserRouter>
