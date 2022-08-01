@@ -1,6 +1,6 @@
 import React from "react"
 
-export default (props)=>{
+export default function Other(props){
   return(
     "Other"
   )

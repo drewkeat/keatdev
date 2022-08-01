@@ -7,7 +7,7 @@ import {
 import App from "../App"
 import {Header, Other} from "../Components"
 
-export default ()=>{
+export default function RoutesConfig(){
   return(
     <BrowserRouter>
     <Routes>
