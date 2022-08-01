@@ -1,5 +1,5 @@
 import React from "react";
-import {dividerClasses, Grid} from '@mui/material'
+import {Grid} from '@mui/material'
 
 import {Header} from "./Components"
 
