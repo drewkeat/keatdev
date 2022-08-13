@@ -7,13 +7,18 @@ import RoutesConfig from "./utils/routesConfig"
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 
+import {ThemeProvider} from "@mui/material/styles"
+import theme from "./utils/theme"
+
 const container = document.getElementById('root');
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <RoutesConfig />
+      <ThemeProvider theme={theme}>
+        <RoutesConfig />
+      </ThemeProvider>
     </Provider>
   </React.StrictMode>
 );
