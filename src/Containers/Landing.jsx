@@ -1,10 +1,8 @@
 import React from "react";
 import { Container, Grid, Typography } from "@mui/material";
-import { useTheme } from '@mui/material';
 
 
 export default function Landing() {
-  const theme = useTheme()
   return (
     <Container disableGutters="true" maxWidth="xl" sx={{height: "100%", backgroundColor: "primary.dark"}}>
       <Grid container justifyContent="center" alignContent={'center'} height='100%'>
