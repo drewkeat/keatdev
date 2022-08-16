@@ -1,25 +1,37 @@
 import {createTheme, responsiveFontSizes} from "@mui/material"
 
+
 let theme=createTheme({
   palette: {
     type: 'light',
     primary: {
-      main: '#3f91bd',
+      main: '#4f8b9b',
     },
     secondary: {
-      main: '#bd3f91',
-    },
-    background: {
-      default: '#eeeeee',
-      paper: '#fcf3ed',
-    },
-    error: {
-      main: '#f32c1e',
+      main: '#5E6DAA',
     },
   },
-//   typography: {
-//     fontFamily: 'Lato',
-//   },
+  typography: {
+    fontFamily: 'Raleway',
+    h1: {
+      fontFamily: 'Josefin Sans',
+    },
+    h2: {
+      fontFamily: 'Josefin Sans',
+    },
+    h3: {
+      fontFamily: 'Josefin Sans',
+    },
+    h4: {
+      fontFamily: 'Josefin Sans',
+    },
+    h5: {
+      fontFamily: 'Josefin Sans',
+    },
+    h6: {
+      fontFamily: 'Josefin Sans',
+    },
+  }
 })
 theme = responsiveFontSizes(theme);
 
